@@ -79,17 +79,19 @@ main {
     margin: 0 auto;
     padding: 130px 150px;
 }
+section{
+    margin-top: 130px;
+}
 
 /* about section styles */
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     text-align: center;
 }
 
 .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -110,7 +112,6 @@ tr {
 }
 
 .info-description {
-    text-decoration-style: solid;
     font-weight: 700;
     font-size: 20px;
     color: #474747;
@@ -121,3 +122,49 @@ tr {
     font-size: 20px;
     color: #757575;
 }
+
+/* what i do styles */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+/* Resume Styles */
